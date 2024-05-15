@@ -3,19 +3,19 @@ library("tidyverse")          # Load the tidyverse package
 
 #Load the dataset
 # Use the correct file path with either forward slashes or double backslashes
-country <- read.csv("C:\\Users\\Srinidhi\\Downloads\\Project_G10_2\\country.csv")
+country <- read.csv("country.csv")
 country
-league <- read.csv("C:\\Users\\Srinidhi\\Downloads\\Project_G10_2\\league.csv")
+league <- read.csv("league.csv")
 league
-Match_1 <- read.csv("C:\\Users\\Srinidhi\\Downloads\\Project_G10_2\\Match_1.csv")
+Match_1 <- read.csv("Match_1.csv")
 Match_1
-player <- read.csv("C:\\Users\\Srinidhi\\Downloads\\Project_G10_2\\player.csv")
+player <- read.csv("player.csv")
 player
-player_attributes <- read.csv("C:\\Users\\Srinidhi\\Downloads\\Project_G10_2\\player_attributes.csv")
+player_attributes <- read.csv("player_attributes.csv")
 player_attributes
-team <- read.csv("C:\\Users\\Srinidhi\\Downloads\\Project_G10_2\\country.csv")
+team <- read.csv("country.csv")
 team
-Team_attributes <- read.csv("C:\\Users\\Srinidhi\\Downloads\\Project_G10_2\\Team_attributes_1.csv")
+Team_attributes <- read.csv("Team_attributes_1.csv")
 Team_attributes
 
 #handling missing values
